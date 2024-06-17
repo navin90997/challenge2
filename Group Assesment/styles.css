@@ -1,0 +1,109 @@
+
+body {
+    background-color: #c0e4cb;
+}
+
+/* Style for the container element */
+#container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for the header element */
+header {
+    font-family: Verdana, Arial, sans-serif;
+    margin-top: 0.2em;
+    background-color: #0b4838; 
+    color: #FFFFFF;
+    padding: 0.5%;
+    text-align: center;
+    border: 1px solid #0b4838; 
+    box-sizing: border-box; 
+    box-shadow: .5em .5em .5em #404040;
+}
+
+/* Style for the nav element */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the taskbar items */
+    margin: 1rem 0; /* Add some margin for spacing */
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: #fafbfc;
+    background-color: #0b4838;
+    padding: 0.5rem 1rem; /* Adjust padding for better box appearance */
+    border-radius: 5px;
+    display: inline-block; /* Ensure the background color applies to the entire box */
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #0b4838;
+}
+nav ul li a.child,
+nav ul li a.scenic,
+nav ul li a.flower {
+    color: white;
+}
+
+/* Ensure the last item has no right margin */
+nav ul li:last-child {
+    margin-right: 0;
+}
+/* Style for the main element  */
+main {
+    display: block;
+    margin: 1%;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #b3f9d3;
+    box-shadow: .5em .5em .5em #404040;
+    float: left;
+    width: 65%;
+}
+
+/* Style for the footer element */
+footer {
+    font-size: .70em;
+    text-align: center;
+    clear: left;
+    background-color: #0b4838;
+    color: white;
+    padding: 1rem;
+}
+
+section {
+    background-color: #0b4838;
+    color: #FFFFFF;
+    margin-top: 4%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+article {
+    background-color: white;
+    border-radius: 3em;
+    color: #000000;
+    margin-top: 1%;
+    padding: 2%;
+    overflow: hidden;
+}
+
+aside {
+    background-color: #b3f9d3;
+    border-radius: 3em;
+    width: 25%;
+    float: right;
+    padding: 2%;
+    margin-top: 1%;
+    color: #050505;
+}
